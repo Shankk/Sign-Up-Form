@@ -8,28 +8,68 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
     <body>
         <div class="page">
             <div class="splashArt">
-                <div class="companyCover">
-                    <img class="companyIcon" src="images/odin-lined.png" alt="">
-                    <div class="siteName">GET GOOD GAMES</div>
+                <div class="logo">
+                    <img class="icon" src="images/odin-lined.png" alt="">
+                    <h1 class="siteName">GET GOOD GAMES</h2>
+                    
                 </div>
                 <div class="footer">Kratos vs Thor - God of War Ragnarok by Gabriel Varz</div>
             </div>
 
-            <div class="form">
-                <div class="intro">This is not a real service! You know you need something like
-                this in your life. Every gamers paradise. Just Good Games! <br><br> You know you want to.
-                </div>
-                <div class="sign-up">
-                    
+            <div class="sign-up">
 
+                <div class="intro left">
+                    <p>This is not a real online service! You know you need something like this in your life. Every gamers paradise. Just Good Games!
+                        <br>Sign up <em>now</em> to get started.<br><br>
+                        You <em>know</em> you want to.
+                    </p>
                 </div>
-                <button class="create-acc-btn">Create Account</button>
-                <div class="login">Already have an account? Log In</div>
+
+                <form action="#">
+                    
+                    <div class="container left">
+                        <p class="form-title">Let's do this!</p>
+                        <div class="input-container ">
+                            <label for="first_name">FIRST NAME:</label>
+                            <input type="text" id="first_name" name="first_name" placeholder="David...">
+                        </div>
+                        <div class="input-container">
+                            <label for="last_name">LAST NAME:</label>
+                            <input type="text" id="last_name" name="last_name" placeholder="Veiga...">
+                        </div>
+                        <div class="input-container">
+                            <label for="user_email">EMAIL:</label>
+                            <input type="email" id="user_email" name="user_email" placeholder="example@hotmail.com...">
+                        </div>
+                        <div class="input-container">
+                            <label for="user_phone">PHONE NUMBER:</label>
+                            <input type="number" id="user_phone" name="user_phone" placeholder="123-456-7890...">
+                        </div>
+                        <div class="input-container">
+                            <label for="user_password">PASSWORD:</label>
+                            <input type="password" id="user_password" name="user_password" placeholder="Cookies$752...">
+                        </div>
+                        <div class="input-container">
+                            <label for="user_password">CONFIRM PASSWORD:</label>
+                            <input type="password" id="user_password" name="user_password" placeholder="Cookies$752...">
+                        </div>
+                        
+                    </div>
+                    <div class="left button">
+                        <button class="create-acc-btn" type="submit">Create Account</button>
+                    </div>
+                </form>
+
+                <div class="login left">
+                    <p>Already have an account?</p>
+                    <a href="#">Log in</a>
+                </div>
+                
             </div>
         </div>
         
